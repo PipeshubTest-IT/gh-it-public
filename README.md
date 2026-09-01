@@ -1,2 +1,5 @@
 # gh-it-public
-PipesHub integration-test fixture: public repo, exercises the visibility-derived ORG grant.
+
+Public fixture repo for the PipesHub GitHub Teams integration tests. It exists
+so the suite can assert the visibility-derived `Permission(READ, ORG)` grant,
+which appears in no collaborator listing and must be modelled from visibility.
